@@ -1,5 +1,7 @@
 # discohack2026
 
+Сайт (надеюсь) будет тут: literallycats.ru
+
 Монорепа с:
 
 - `backend/` — Rust + Axum + PostgreSQL + SQLx
