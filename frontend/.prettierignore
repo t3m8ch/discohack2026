@@ -1,0 +1,7 @@
+bun.lock
+dist
+node_modules
+.vinxi
+.tanstack
+.pi
+openspec

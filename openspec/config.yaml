@@ -1,0 +1,16 @@
+schema: spec-driven
+
+context: |
+  Repository type: monorepo with backend and frontend applications.
+  Backend lives in `backend/` and uses Rust, Axum, PostgreSQL, and SQLx.
+  Frontend lives in `frontend/` and uses Bun, TanStack Start, TypeScript, Mantine, and TanStack Query.
+  `openspec/` at the repository root is the single authoritative OpenSpec workspace for the entire repository.
+  Create all new changes, specs, and archives under this root workspace instead of under app-specific directories.
+
+rules:
+  proposal:
+    - Describe whether the change impacts backend, frontend, or both.
+  design:
+    - Call out migration or coordination steps when a change touches both applications or shared repository structure.
+  tasks:
+    - Include verification steps when moving or restructuring repository-level assets.
